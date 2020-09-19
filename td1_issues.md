@@ -6,21 +6,21 @@ Lisez le cahier des charges du CNRS et considérez que vous êtes une jeune star
 
 **Q1 -** Quelles sont les parties du cahier des charges que votre start-up est capable de réaliser ?
 
-- Création en ligne d'une fiche sythetique de leur atelier (voir annexe 1).
-- Accecibilité au enseignement avec plusieurs classement avec diverse filtre.
-- Modification/suppression de crénaux d'annimation (de manière protégé)
-- Accès en temps réel des infos de la part des enseignant.
-- Inscription des enseignant.
-- Récapitulatif des atelier (atelier, contact, horraire).
-- Espace public et privé.
-- Documentation, arborescence, version des code source, version des navigateur compatible, Document décrivant le site et son fonctionement, ID & mdp d'accès au serveur tests.
+- #1 : Formulaire en ligne permettant la création d'une fiche sythétique de leur ateliers (titre, thème, type, date, laboratoire, lieux, durée capacité).
+- #2 : Listage des différent attelier et possibilité d'ajouter des filtre (Thème, date, ect..)
+- #3 Modification/suppression de crénaux d'annimation (de manière protégé)
+- #4 Accès en temps réel des infos des atelier de la part des enseignant.
+- #5 Inscription des enseignant à un atelier
+- #6 Inscription des enseignant.
+- #7 Récapitulatif des atelier (atelier, contact, horraire).
+- #8 Espace du site public (visite ) et privé (doit être authentifié).
+- #9 Les différente rubrique de fin
 
 **Q2 -** Quelles sont les parties du cahier des charges que votre start-upn’est pas capable (ou ne souhaite pas) réaliser ?
 
 - Carte géographique des lieux
-- Les différente rubrique de fin
 - Les récapitulatif des trajet
-- Manuel Admisnistation
+- Intervention sous 24h.
 
 ## User Story (1ere phase)
 
@@ -41,11 +41,32 @@ Une société partenaire a déjà réalisé une partie du BackLog :
 
 **Q3 -** Les issues (user story) sont-elles identifiées de manière unique ?
 
+Oui elles ont chacune un identifiant.
+
 **Q4 -** Les issues (user story) sont-elles précises ? En outre pouvez-vous décrire ce qu’est un « laboratoire » ? Seriez-vous capable de décrire une validation pour chacune d’entre elle ?
+
+laboratoire doit être modifié en animateur.
 
 **Q5 -** Les issues (user story) sont-elles homogènes ? Est-ce qu’elles décrivent toutes des fonctionnalités (feature) ? Est-ce qu’elles ciblent toutes un besoin exprimé dans le cahier des charges ?
 
+Non certaines parle de feature d'autre de maintenance, d'autre de technologie.
+
 **Q6 -** Qualifiez les issues en précisant leur type, leur importance et leur difficulté.
+
+| ID   | Type        | Importance | Difficulté |
+| ---- | ----------- | ---------- | ---------- |
+| US1  | Feature     | Forte      | 1          |
+| US2  | Feature     | Forte      | 1          |
+| US3  | Feature     | Moyenne    | 1          |
+| US4  | Feature     | Faible     | 1          |
+| US5  | Feature     | Forte      | 1          |
+| US6  | Feature     | Forte      | 1          |
+| US7  | Feature     | Moyenne    | 3          |
+| US8  | Performance | Forte      | 1          |
+| US9  | Performance | Moyenne    | 3          |
+| US10 | Performance | Faible     | 3          |
+| US11 | Feature     | Faible     | 5          |
+| US12 | NotFeature  | /////////  | ////////// |
 
 ## A faire
 
