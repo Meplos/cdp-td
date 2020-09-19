@@ -73,3 +73,35 @@ Non certaines parle de feature d'autre de maintenance, d'autre de technologie.
 Préparez le Backlog complet de ce cahier des charges pour la semaine prochaine.
 
 Utilisez un outil comme IceScrum ou Jira et saisissez votre BackLog.
+
+---
+
+**NOTE**
+
+Une fiche d'atelier est composer d'un titre, d'un thème, un type, date/horraire, laboratoire, lieu, une durée, une capacité, modalité d'inscription, un résumé, un animateur, une liste de partenaire (potentielement vide), description du public visé, un contunu pédagogique/discipline scolaire visé.
+
+---
+
+US1 : **En tant que** laboratoire **je souhaite** crée une fiche d'atelier **afin que** le CRNS puissent le valider
+
+US2 : **En tant que** CNRS **je souhaite** pouvoir valider les fiche d'atelier **afin de** l'afficher et de la rendre accecible au enseignants.
+
+US3 : **En tant qu'**enseignant **je souhaite** pouvoir afficher la liste de tous ateliers **afin de** choisir auquels m'inscrire
+
+US4 : **En tant qu'**enseignant **je souhaite** pouvoir filtrer la liste des atelier en fonction de différent critére comme le lieu, ou la thématique **afin de** choisir auquels m'inscrire.
+
+US5: **En tant qu'**enseignant **je souhaite** pouvoir m'inscrire a un atelier **afin** d'y participer.
+
+US6 : **En tant que**laboratoire **je souhaite** pouvoir modifié la liste des crénaux disponnible pour mes ateliers après validation **afin de** mieux organiser les ateliers.
+
+US7 : **En tant qu'**enseignant **je souhaite** pouvoir visualisé les trajets entres les différent atelier où je suis inscrit **afin de** mieux organisé mes déplacements.
+
+US8 : **En tant que**laboratoire **je souhaite** pouvoir fermer la période d'inscription **afin de** limiter le temps d'inscription.
+
+US9 : **En tant qu'**enseignant **je souhaite** pouvoir voir un récapitulatif de tous les ateliers auquel je suis inscrit avec la liste des ateliers, des contacts, des horraires et trajets **afin de** m'organiser.
+
+US10 : **En tant que** laboratoire **je souhaite** pouvoir avoir un recapitulatif de mes ateliers ( crénaux occupé, contacts...) un fois les inscriptions cloturé **afin de** m'informer sur les taux de participation
+
+US11 : **En tant que** visiteur **je souhaite** pouvoir m'informer sur les demande de subvention **afin de** les transmettre a Cap Science.
+
+US12 : **En tant que** visiteur **je souhaite** pouvoir m'informer sur les métier de la recherche **afin de** m'organiser.
