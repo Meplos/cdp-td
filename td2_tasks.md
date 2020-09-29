@@ -22,7 +22,7 @@ L’architecture ciblée est LAMP (Linux, Apache, MySQL, PHP) donc une architect
 
 Utilisez un outils « Treillo » et saisissez toutes les tâches que vous avez identifiées.
 
-**Q1 -**
+**Q1, Q2 -**
 
 | idList            | labels         | name                                                            | desc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Issues                 | Dépendances | Charge de travail |
 | ----------------- | -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------- | ----------------- |
@@ -50,3 +50,38 @@ Utilisez un outils « Treillo » et saisissez toutes les tâches que vous avez
 | Phase 3           | Implémentation | 4 - Générer les bilans laboratoires                             | Écrire un fichier gen_bilan_labo.php qui génére et envoie le mail bilan pour les laboratoires. Ce mail doit contenir : - l'occupation de chaque créneau pour chaque atelier (nombre de places) - la liste des contacts (adresses mails) des enseignants inscrits par créneau par atelier - les niveaux des classes inscrites - le nom de l'établissement des classe inscrites                                                                                                                                                                                                                                                                                                                                | 10                     | 5           | 3                 |
 | Phase 3           | Tests          | 23 - Designer les tests fonctionnels                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | 1 à 22      | 5                 |
 | Phase 3           | Tests          | 24 - Faire tourner les tests fonctionnels                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | 23          | 5                 |
+
+**Q3 -** On peut avoir besoin de respectivement 5, 4 et 2 développeurs au maximum pour les phases 1, 2 et 3. Cela permet de réaliser toutes ces tâches en respectivement 7, 4 et 12 jours.
+
+**Q4 -**
+**Phase 1** : 11 jours avec 3 développeurs
+|	| J1 	| J2	| J3	| J4	| J5	| J6	| J7	| J8	| J9	| J10	| J11	|
+|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|
+| Dev1	| 11	| 11	| 15	| 15	| 15	| 15	| 15	| 12 	| 12	| 12	| 12	|
+| Dev2	| 5	| 10	| 10	| 14	| 14	| 18	| 18	| 6	| 6	| 	| 	|
+| Dev3	| 21	| 21	| 9	| 9	| 17	| 17	| 1	| 1	| 7	| 7	| 8	|
+
+
+**Phase 2** : 9 jours avec 2 développeurs
+|	| J1 	| J2	| J3	| J4	| J5	| J6	| J7	| J8	| J9	|
+|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|
+| Dev1	| 13	| 11	| 11	| 11	| 19	| 19	| 22	| 22	|	|
+| Dev2	| 16	| 16	| 16	| 16	| 2	| 2	| 2	| 20	| 20	|
+
+5 jours avec 3 développeurs
+|	| J1 	| J2	| J3	| J4	| J5	|
+|-----	|-----	|-----	|-----	|-----	|-----	|
+| Dev1	| 13	| 20	| 20	| 19	| 19	|
+| Dev2	| 16	| 16	| 16	| 16	|	|
+| Dev3	| 2	| 2	| 2	| 22	| 22	|
+
+
+**Phase 3** : 12 jours avec 2 développeurs
+|	| J1 	| J2	| J3	| J4	| J5	| J6	| J7	| J8	| J9	| J10	| J11	| J12	|
+|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|
+| Dev1	| 3	| 3	| 3	| 23	| 23	| 23	| 23	| 23	| 24	| 24	| 24	| 24	|
+| Dev2	| 4	| 4	| 4	|	|	|	|	|	|	|	|	|	|
+
+pas d'utilité pour un 3e développeur pendant cette phase
+
+**Q5 -** [lien trello](https://trello.com/b/kJ2hn5Xd/td2)
