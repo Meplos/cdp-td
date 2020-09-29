@@ -48,10 +48,10 @@ Utilisez un outils « Treillo » et saisissez toutes les tâches que vous avez
 | Phase 2           | Implémentation | 22 - php réponse du CNRS à l'ajout d'atelier                    | Écrire un fichier rep_ajout_atelier.php qui, en fonction de la réponse du CNRS, - enregistre la réponse du CNRS dans la base de données MySQL - envoie un mail de réponse au laboratoire concerné - rend l'atelier visible aux autres utilisateurs                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 13                     | 5           | 2                 |
 | Phase 3           | Implémentation | 3 - Générer les bilans enseignants                              | Écrire un fichier gen_bilan_ens.php qui génére et envoie le mail bilan pour les laboratoires. Ce mail doit contenir les informations suivants, tirées de la BDD - la liste des ateliers auxquels je suis inscrit - le nom de l'atelier - la liste des contacts (adresses mails) des animateurs - ses horaires : heure, date - son adresse                                                                                                                                                                                                                                                                                                                                                                    | 11                     | 5           | 3                 |
 | Phase 3           | Implémentation | 4 - Générer les bilans laboratoires                             | Écrire un fichier gen_bilan_labo.php qui génére et envoie le mail bilan pour les laboratoires. Ce mail doit contenir : - l'occupation de chaque créneau pour chaque atelier (nombre de places) - la liste des contacts (adresses mails) des enseignants inscrits par créneau par atelier - les niveaux des classes inscrites - le nom de l'établissement des classe inscrites                                                                                                                                                                                                                                                                                                                                | 10                     | 5           | 3                 |
-| Phase 3           | Tests          | 23 - Designer les tests fonctionnels                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | 1 à 22      | 5                 |
-| Phase 3           | Tests          | 24 - Faire tourner les tests fonctionnels                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | 23          | 5                 |
+| Phase 3           | Tests          | 23 - Designer les tests fonctionnels                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | /      | 5                 |
+| Phase 3           | Tests          | 24 - Faire tourner les tests fonctionnels                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | all                    | toutes          | 5                 |
 
-**Q3 -** On peut avoir besoin de respectivement 5, 4 et 2 développeurs au maximum pour les phases 1, 2 et 3. Cela permet de réaliser toutes ces tâches en respectivement 7, 4 et 12 jours.
+**Q3 -** On peut avoir besoin de respectivement 5, 4 et 2 développeurs au maximum pour les phases 1, 2 et 3. Cela permet de réaliser toutes ces tâches en respectivement 7, 4 et 10 jours.
 
 **Q4 -**
 **Phase 1** : 11 jours avec 3 développeurs
@@ -76,12 +76,26 @@ Utilisez un outils « Treillo » et saisissez toutes les tâches que vous avez
 | Dev3	| 2	| 2	| 2	| 22	| 22	|
 
 
-**Phase 3** : 12 jours avec 2 développeurs
-|	| J1 	| J2	| J3	| J4	| J5	| J6	| J7	| J8	| J9	| J10	| J11	| J12	|
-|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|
-| Dev1	| 3	| 3	| 3	| 23	| 23	| 23	| 23	| 23	| 24	| 24	| 24	| 24	|
-| Dev2	| 4	| 4	| 4	|	|	|	|	|	|	|	|	|	|
+**Phase 3** : 9 jours avec 3 développeurs
+|	| J1 	| J2	| J3	| J4	| J5	| J6	| J7	| J8	| J9	|
+|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|-----	|
+| Dev1	| 3	| 3	| 3	|	|	|	|	|	|	|
+| Dev2	| 4	| 4	| 4	|	|	|	|	|	|	|
+| Dev3	| 23	| 23	| 23	| 23	| 23	| 24	| 24	| 24	| 24	|
 
-pas d'utilité pour un 3e développeur pendant cette phase
+
+*Phase 1* 
+Si Dev2 est absent 2 jours, il peut reprendre sont travail deux jours plus tard sans retard. Si Dev1 ou Dev3 est absent 2 jours, Dev2 doit s'interrompre et remplacer le développeur absent sans retard.
+
+*Phase 2* 
+* si il y a à la base 2 développeurs : si Dev1 est absent 2 jours, il peut reprendre son travail à son retour sans retard. Si Dev2 est asbent, Dev1 doit le remplacer. 
+
+* s'il y a à la base 3 developpeurs, n'importe quel développeur peut s'absenter 2 jours et reprendre son travail sans problème, quitte à ce que tout le developpement soit interrompu. En effet, dans ce scénario, on peut se permettre 5 jours de battement.
+
+Dans aucun des deux cas il n'y a de jour de retard.
+
+*Phase 3* 
+Si Dev3 est absent deux jours parmi les 5 premiers, Dev1 et Dev2 doivent se partager deux jours de travail avant ou après leurs tâches respectives sans retard. Si Dev3 est absent pendant les derniers jours, Dev1 et Dev2 doivent se partager deux jours de travail. Si Dev1 ou Dev2 est absent deux jours, Dev3 et le dernier développeur doivent se partager les deux journées de travail perdues avant que Dev3 ne s'occupe de la tâche 24. Aucun jour de retard à déplorer.
+
 
 **Q5 -** [lien trello](https://trello.com/b/kJ2hn5Xd/td2)
