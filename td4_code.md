@@ -6,7 +6,7 @@ Lors des TD précédents vous avez décrit les fonctionnalités de gestion des a
 
 * Sur votre fork, créez une branche de dev.
 
-Installez les dépendance du projet avec la commande :
+Installez les dépendance du projet avec la commande :
 
 `$ npm install`
 
@@ -18,7 +18,7 @@ L'application est disponnible sur l'url : http://localhost:3000/
 
 **Q1 -** Observez la structure des fichiers du projet, est elle pertinente, reflète t elle l’architecture du projet ? Proposez une autre structure.
 
-**Q2 -** Installez eslint : https://www.npmjs.com/package/eslint, et définissez un fichier .eslintrc contenant vos règles de codage. Intégrez eslint a votre IDE (sur visual studio code, installez l’extension eslint), afin d’afficher les erreurs et warning directement dans votre editeur.
+**Q2 -** Installez eslint : https://www.npmjs.com/package/eslint, et définissez un fichier .eslintrc contenant vos règles de codage. Intégrez eslint a votre IDE (sur visual studio code, installez l’extension eslint), afin d’afficher les erreurs et warning directement dans votre editeur.
 
 **Q3 -** Sur votre branche de dev, développez la fonctionnalité de mise à jour d’un workshop, et faites une pull request vers branche main. Faite la review du code proposé et intégrez le.
 
